@@ -232,7 +232,7 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form" method="post"><input type="hidden" name="form-name" value="form 1">
+          <form action="form.php" class="contact__form" method="post"><input type="hidden" name="form-name" value="form 1">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input required="" placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name">
@@ -251,22 +251,6 @@
           </form>
         </div>
       </div>
-      <script src=" https://smtpjs.com/v3/smtp.js"></script>
-      <script>
-        function sentemail(){
-          Email.send({
-            Host : "smtp.gmail.com.com",
-            Username : "website0508@gmail.com",
-            Password : "kes@123",
-            To : 'keshavthakur5103@gmail.com',
-            From : document.getElementById("email").value ,
-            Subject : "new contact form enquiry",
-            Body : "And this is the body"
-        }).then(
-          message => alert(message)
-        );
-        }
-      </script>
     </section>
     <footer class="main-footer"> 
       <div class="main-container">
